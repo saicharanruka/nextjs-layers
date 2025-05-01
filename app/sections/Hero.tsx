@@ -31,6 +31,7 @@ const Hero = () => {
       [rightDesignScope.current, { opacity: 1 }, { duration: 0.5, delay: 1 }],
       [rightDesignScope.current, { y: 0, x: -20 }, { duration: 0.5 }],
     ]);
+    rightPointerAnimate([]);
   }, []);
 
   return (
