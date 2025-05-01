@@ -2,7 +2,6 @@ import Tag from '../components/Tag';
 import FeatureCard from '../components/FeatureCard';
 import Avatar from '../components/Avatar';
 import Key from '../components/Key';
-import incredibleGif from '@/public/images/mind-blown.gif';
 
 import avatar1 from '@/public/images/avatar-ashwin-santiago.jpg';
 import avatar2 from '@/public/images/avatar-florence-shaw.jpg';
@@ -71,7 +70,7 @@ const Features = () => {
           >
             <div className='aspect-video flex items-center justify-center'>
               <p className='text-4xl font-extrabold text-white/20 group-hover:text-white/10 duration-500 transition text-center'>
-                We've achieved{' '}
+                We&apos;ve achieved{' '}
                 <span
                   className=' bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400
                  text-transparent relative '

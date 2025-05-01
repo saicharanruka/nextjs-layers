@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Tag from '../components/Tag';
-import { useMotionValueEvent, useScroll, useTransform } from 'motion/react';
+import { useScroll, useTransform } from 'motion/react';
 
 const text = `You're racing to create exceptional work, but traditional design tools slow you down with unnecessary complexity and steep learning curves.`;
 const words = text.split('');
@@ -45,7 +45,7 @@ const Introduction = () => {
               ))}
             </span>
             <span className='text-lime-400 block'>
-              That's why we built layers
+              That&apos;s why we built layers
             </span>
           </div>
         </div>
